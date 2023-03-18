@@ -22,7 +22,7 @@ npm install @reduxjs/toolkit react-redux
 
 ## Provide the Redux Store to React
 
--using Provider component provide store in App.js file
+-using Provider component provide store in index.js file
 
 
 ## Create a Redux State Slice
@@ -33,6 +33,8 @@ npm install @reduxjs/toolkit react-redux
 
 -configure the reducer in configureStore by importing reducers, can import and configure multiple reducers like counterSlice and 
 alphabetSlice
+
+-and then import the reducer in store and configure it
 
 
 ## Use Redux State and Actions in React Components
